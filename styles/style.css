@@ -145,11 +145,13 @@ ol {
 }
 
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content: "";
-  position: absolute;
-  inset: 1px;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
   display: block;
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  outline: 1px solid #fff;
+  outline-offset: 1px;
   background-color: #fff;
 }
 
